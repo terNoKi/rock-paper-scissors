@@ -22,7 +22,18 @@ function getPlayerChoice(){
     return console.log(`You chose: ${choice}!`)
 }
 let playerChoice = getPlayerChoice();
-console.log(playerChoice)
+
+function playRound(playerChoice, computerChoice){
+        let sign = alert("The fight begins!")
+        if (playerChoice === computerChoice){
+            alert("It's a draw!")
+        }else if (playerChoice === "Rock" && computerChoice === "Paper"){
+            alert("Computer wins!")
+        }
+
+
+
+}
 // make a power list (elif statement)
 // get user choice function
 // make rounds for player and comuter choice
