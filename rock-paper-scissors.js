@@ -51,6 +51,7 @@ function getPlayerChoice(){
         choice = "Scissors";
     }else{
         alert("Hey, pick a correct option!");
+        getPlayerChoice();
     }
     alert(`You chose: ${choice}!`);
     console.log(choice);
